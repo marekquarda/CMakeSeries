@@ -7,5 +7,5 @@ Dog::Dog(std::string name_param) : dog_name(name_param)
 }
 
 Dog::~Dog() {
-    std::cout << "Destructor for dog " << dog_name << " caleed" << std::endl;
+    std::cout << "Destructor for dog " << dog_name << " called" << std::endl;
 }
