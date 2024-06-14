@@ -14,9 +14,14 @@ project(HelloApp
         DESCRIPTION "The leading Hello World App"
         LANGUAGES CXX)   
 
+add_library(operations STATIC src/operations.cpp)        
+target_include_directories(operations PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_compile_features(operations PUBLIC cxx_std_20)
+
 add_executable(HelloAppBinary main.cpp 
                               src/dog.cpp 
-                              src/log.cpp 
-                              src/operations.cpp)
+                              src/log.cpp)
+
 target_include_directories(HelloAppBinary PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_compile_features(HelloAppBinary PUBLIC cxx_std_20)
+target_link_libraries(HelloAppBinary PUBLIC operations)
