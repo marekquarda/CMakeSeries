@@ -6,6 +6,7 @@
 int main() {
 
     auto value = ((10 <=> 20) > 0);
+    std::cout << std::boolalpha;
     std::cout << "value: " << value << std::endl;
 
     double result = add(10,70);
