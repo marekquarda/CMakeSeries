@@ -4,6 +4,10 @@
 #include "log.h"
 
 int main() {
+
+    auto value = ((10 <=> 20) > 0);
+    std::cout << "value: " << value << std::endl;
+
     double result = add(10,70);
     std::cout << "result : " << result << std::endl;
 
