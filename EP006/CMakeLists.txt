@@ -20,12 +20,14 @@ set(CMAKE_CXX_STANDARD 20)      # Default C++ standard for targets
 # The math library
 #add_library(libmath STATIC src/maths/supermath.cpp)        
 #target_include_directories(libmath PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/maths/include)
-include(src/maths/maths.cmake)
+#include(src/maths/maths.cmake)
+add_subdirectory(src/maths)
 
 #add_library(libstats STATIC src/stats/stats.cpp)
 #target_include_directories(libstats PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/stats/include)
 #target_link_libraries(libstats PRIVATE libmath)
-include(src/stats/stats.cmake)
+#include(src/stats/stats.cmake)
+add_subdirectory(src/stats)
 
 add_executable(rooster src/main.cpp)
 target_link_libraries(rooster PUBLIC libstats)
