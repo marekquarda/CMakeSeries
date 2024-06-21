@@ -1,0 +1,9 @@
+/home/marra/Projects/Cpp/CMakeSeries/build/CMakeFiles/rooster.dir
+/home/marra/Projects/Cpp/CMakeSeries/build/CMakeFiles/edit_cache.dir
+/home/marra/Projects/Cpp/CMakeSeries/build/CMakeFiles/rebuild_cache.dir
+/home/marra/Projects/Cpp/CMakeSeries/build/src/maths/CMakeFiles/libmath.dir
+/home/marra/Projects/Cpp/CMakeSeries/build/src/maths/CMakeFiles/edit_cache.dir
+/home/marra/Projects/Cpp/CMakeSeries/build/src/maths/CMakeFiles/rebuild_cache.dir
+/home/marra/Projects/Cpp/CMakeSeries/build/src/stats/CMakeFiles/libstats.dir
+/home/marra/Projects/Cpp/CMakeSeries/build/src/stats/CMakeFiles/edit_cache.dir
+/home/marra/Projects/Cpp/CMakeSeries/build/src/stats/CMakeFiles/rebuild_cache.dir

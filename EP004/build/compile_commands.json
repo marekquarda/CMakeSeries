@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/marra/Projects/Cpp/CMakeSeries/EP004/build",
+  "command": "/usr/bin/c++ -I/home/marra/Projects/Cpp/CMakeSeries/EP004/src/maths/include -g -std=gnu++20 -o CMakeFiles/libmath.dir/src/maths/supermath.cpp.o -c /home/marra/Projects/Cpp/CMakeSeries/EP004/src/maths/supermath.cpp",
+  "file": "/home/marra/Projects/Cpp/CMakeSeries/EP004/src/maths/supermath.cpp"
+},
+{
+  "directory": "/home/marra/Projects/Cpp/CMakeSeries/EP004/build",
+  "command": "/usr/bin/c++ -I/home/marra/Projects/Cpp/CMakeSeries/EP004/src/stats/include -I/home/marra/Projects/Cpp/CMakeSeries/EP004/src/maths/include -g -std=gnu++20 -o CMakeFiles/libstats.dir/src/stats/stats.cpp.o -c /home/marra/Projects/Cpp/CMakeSeries/EP004/src/stats/stats.cpp",
+  "file": "/home/marra/Projects/Cpp/CMakeSeries/EP004/src/stats/stats.cpp"
+},
+{
+  "directory": "/home/marra/Projects/Cpp/CMakeSeries/EP004/build",
+  "command": "/usr/bin/c++ -I/home/marra/Projects/Cpp/CMakeSeries/EP004/src/stats/include -g -std=gnu++20 -o CMakeFiles/rooster.dir/src/main.cpp.o -c /home/marra/Projects/Cpp/CMakeSeries/EP004/src/main.cpp",
+  "file": "/home/marra/Projects/Cpp/CMakeSeries/EP004/src/main.cpp"
+}
+]

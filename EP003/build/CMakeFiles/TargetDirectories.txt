@@ -1,0 +1,4 @@
+/home/marra/Projects/Cpp/CMakeSeries/EP003/build/CMakeFiles/operations.dir
+/home/marra/Projects/Cpp/CMakeSeries/EP003/build/CMakeFiles/HelloAppBinary.dir
+/home/marra/Projects/Cpp/CMakeSeries/EP003/build/CMakeFiles/edit_cache.dir
+/home/marra/Projects/Cpp/CMakeSeries/EP003/build/CMakeFiles/rebuild_cache.dir

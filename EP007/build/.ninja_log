@@ -1,0 +1,7 @@
+# ninja log v5
+0	14	1718966200001416868	src/maths/CMakeFiles/libmath.dir/supermath.cpp.o	98fae69668a945
+0	16	1718966200005418868	src/stats/CMakeFiles/libstats.dir/stats.cpp.o	26b8662c4bf29d0b
+14	163	1718966200153492864	src/maths/liblibmath.a	7c509f41559e11f7
+163	188	1718966200177504864	src/stats/liblibstats.a	1ed55ec1e3cca71d
+0	321	1718966200309570861	CMakeFiles/rooster.dir/src/main.cpp.o	6d2ec14883c40dd7
+322	362	1718966200349590861	rooster	14ab5c66f8bdf790

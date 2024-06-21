@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/rooster.dir/src/main.cpp.o -o rooster  src/stats/liblibstats.a src/maths/liblibmath.a 

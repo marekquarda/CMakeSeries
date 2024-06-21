@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/marra/Projects/Cpp/CMakeSeries/EP005/build",
+  "command": "/usr/bin/c++ -I/home/marra/Projects/Cpp/CMakeSeries/EP005/include -g -std=gnu++20 -o CMakeFiles/HelloAppBinary.dir/main.cpp.o -c /home/marra/Projects/Cpp/CMakeSeries/EP005/main.cpp",
+  "file": "/home/marra/Projects/Cpp/CMakeSeries/EP005/main.cpp"
+},
+{
+  "directory": "/home/marra/Projects/Cpp/CMakeSeries/EP005/build",
+  "command": "/usr/bin/c++ -I/home/marra/Projects/Cpp/CMakeSeries/EP005/include -g -std=gnu++20 -o CMakeFiles/HelloAppBinary.dir/src/dog.cpp.o -c /home/marra/Projects/Cpp/CMakeSeries/EP005/src/dog.cpp",
+  "file": "/home/marra/Projects/Cpp/CMakeSeries/EP005/src/dog.cpp"
+},
+{
+  "directory": "/home/marra/Projects/Cpp/CMakeSeries/EP005/build",
+  "command": "/usr/bin/c++ -I/home/marra/Projects/Cpp/CMakeSeries/EP005/include -g -std=gnu++20 -o CMakeFiles/HelloAppBinary.dir/src/log.cpp.o -c /home/marra/Projects/Cpp/CMakeSeries/EP005/src/log.cpp",
+  "file": "/home/marra/Projects/Cpp/CMakeSeries/EP005/src/log.cpp"
+},
+{
+  "directory": "/home/marra/Projects/Cpp/CMakeSeries/EP005/build",
+  "command": "/usr/bin/c++ -I/home/marra/Projects/Cpp/CMakeSeries/EP005/include -g -std=gnu++20 -o CMakeFiles/HelloAppBinary.dir/src/operations.cpp.o -c /home/marra/Projects/Cpp/CMakeSeries/EP005/src/operations.cpp",
+  "file": "/home/marra/Projects/Cpp/CMakeSeries/EP005/src/operations.cpp"
+}
+]
