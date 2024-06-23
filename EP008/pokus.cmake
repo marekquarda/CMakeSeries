@@ -1,0 +1,22 @@
+message("This is test script ${CMAKE_CURRENT_LIST_FILE}")
+
+# set(VAR1 TRUE)
+# if(VAR1)
+#     message("VAR1 is true")
+# else()
+#     message("VAR1 is not true")
+# endif()
+
+set(var1 OFF)
+set(var2 "var1")
+if(${var2})
+    message("var2 is true")
+else()
+    message("var2 is not true")
+endif()
+
+if(var2)
+    message("var2 is true")
+else()
+    message("var2 is not true")
+endif()
