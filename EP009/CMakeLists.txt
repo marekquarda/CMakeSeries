@@ -15,11 +15,17 @@ project(Rooster
         LANGUAGES CXX)   
 
 set(CXX_STANDARD_REQUIRED ON)   # Make C++20 a hard requirement
-set(CMAKE_CXX_STANDARD 20)      # Default C++ standard for targets         
+set(CMAKE_CXX_STANDARD 23)      # Default C++ standard for targets         
 
 message("The make version is ${CMAKE_VERSION}")
 message("Builder: ${CMAKE_BUILD_TOOL}")
 message("Build Libs: ${BUILD_SHARED_LIBS}")
+
+set(OUR_PROJECT_VERSION "0.0.2")
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
+
+include(AddFmt)
 
 # The math library
 #add_library(libmath STATIC src/maths/supermath.cpp)        
@@ -41,7 +47,12 @@ set(SOURCE_FILES src/main.cpp
 function(create_and_link_executable EXEC_NAME LIB_NAME SOURCES)
         add_executable(${EXEC_NAME} ${${SOURCES}})
         target_link_libraries(${EXEC_NAME} PUBLIC ${LIB_NAME})
+        target_link_libraries(rooster PRIVATE fmt::fmt)
 endfunction() 
+
+
+
+FetchContent_MakeAvailable(fmt)
 
 # The executable target
 #add_executable(rooster ${SOURCE_FILES})
