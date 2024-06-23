@@ -33,8 +33,28 @@ add_subdirectory(src/maths)
 #include(src/stats/stats.cmake)
 add_subdirectory(src/stats)
 
-add_executable(rooster src/main.cpp)
-target_link_libraries(rooster PUBLIC libstats)
+set(SOURCE_FILES src/main.cpp 
+                 src/information.cpp 
+                 src/information.h
+)
+
+function(create_and_link_executable EXEC_NAME LIB_NAME SOURCES)
+        add_executable(${EXEC_NAME} ${${SOURCES}})
+        target_link_libraries(${EXEC_NAME} PUBLIC ${LIB_NAME})
+endfunction() 
+
+# The executable target
+#add_executable(rooster ${SOURCE_FILES})
+#target_link_libraries(rooster PUBLIC libstats)
+
+create_and_link_executable(rooster libstats SOURCE_FILES)
+
+message("Our project version is ${OUR_PROJECT_VERSION}")
+message("Custom message: The compiler we're using is ${CMAKE_CXX_COMPILER}")
+message("The processor architecture is $ENV{PROCESSOR_ARCHITECTURE}")
+
+#add_executable(rooster src/main.cpp)
+#target_link_libraries(rooster PUBLIC libstats)
 #target_include_directories(HelloAppBinary PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 #arget_compile_features(HelloAppBinary PUBLIC cxx_std_20)
 #target_link_libraries(HelloAppBinary PUBLIC operations)
